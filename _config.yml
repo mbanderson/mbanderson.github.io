@@ -1,41 +1,41 @@
 # Site settings
-title:          Tale
-description:    "Minimal Jekyll theme for storytellers"
-baseurl:        "/tale"
-url:            "https://chesterhow.github.io"
+title: Michael Anderson
+# description: ""
+# baseurl: "/home"
+url: "https://mbanderson.github.io"
 
 # Google Analytics
-google_analytics: UA—XXXXXXXX-X
+# google_analytics: UA—XXXXXXXX-X
 
 # Author
 author:
-  name:         Chester How
-  url:          https://chester.how
-  email:        chesterhow@gmail.com
+  name: Michael Anderson
+  url: https://mbanderson.github.io
+  email: mbanderson@ucla.edu
 
 # Build settings
-markdown:       kramdown
+markdown: kramdown
 include:
   - _pages
 
 # Assets
 sass:
-  sass_dir:     _sass
-  style:        compressed
+  sass_dir: _sass
+  style: compressed
 
 # Gems
 plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-seo-tag
-  # - jemoji #Uncomment this to allow emoji in your post
+  # - jemoji # Emojis
 
 # Permalinks
-permalink:      /:year-:month-:day/:title
-paginate:       5
+permalink: /:year-:month-:day/:title
+paginate: 5
 
 # Excludes
-exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
+exclude: [Gemfile, Gemfile.lock, tale.gemspec]
 
-# Disqus (Set to your disqus id)
-disqus:         jekyll-tale
+# Disqus
+# disqus: disqus-id
