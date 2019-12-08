@@ -15,6 +15,7 @@ author:
 
 # Build settings
 markdown: kramdown
+truncation: 40
 include:
   - _pages
 
