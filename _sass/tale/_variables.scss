@@ -11,9 +11,9 @@ $shadow-color: rgba(0, 0, 0, .2);
 $code-color: #bf616a;
 
 // Fonts
-$primary-site-font: 'Libre Baskerville', 'Times New Roman', Times, serif;
-$secondary-site-font: Palatino, 'Palatino LT STD', 'Palatino Linotype', 'Book Antiqua', 'Georgia', serif;
 $content-font: 'Roboto', Arial, sans-serif;
+$primary-site-font: $content-font;
+$secondary-site-font: $content-font;
 $monospaced: Menlo, Monaco, monospace;
 
 @mixin box-sizing($type: border-box) {
